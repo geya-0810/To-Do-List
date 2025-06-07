@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_pending">
+
+    <fragment
+        android:id="@+id/navigation_pending"
+        android:name="com.example.to_dolist.ui.pending.PendingFragment"
+        tools:layout="@layout/fragment_pending" />
+
+    <fragment
+        android:id="@+id/navigation_inProgress"
+        android:name="com.example.to_dolist.ui.in_progress.InProgressFragment"
+        tools:layout="@layout/fragment_in_progress" />
+
+    <fragment
+        android:id="@+id/navigation_completed"
+        android:name="com.example.to_dolist.ui.completed.CompletedFragment"
+        tools:layout="@layout/fragment_completed" />
+</navigation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/status_list_close"
+        android:title="@string/statusList" />
+    <item
+        android:id="@+id/navigation_move_to_pending"
+        android:title="@string/title_pending" />
+    <item
+        android:id="@+id/navigation_move_to_in_progress"
+        android:title="@string/title_inProgress" />
+    <item
+        android:id="@+id/navigation_move_to_completed"
+        android:title="@string/title_completed" />
+</menu>

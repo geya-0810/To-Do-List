@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">To-Do List</string>
+
+    <string name="title_pending">Pending</string>
+    <string name="title_inProgress">In Progress</string>
+    <string name="title_completed">Completed</string>
+    <string name="description">Add new task</string>
+
+
+
+    <string name="txtTitle">Title</string>
+    <string name="statusList">Move to:</string>
+    <string name="categoryList">"Change To: "</string>
+    <string name="status">Status</string>
+    <string name="category">Category</string>
+    <string name="delete">Delete</string>
+    <string name="urgent">urgent</string>
+    <string name="important">important</string>
+    <string name="general">general</string>
+
+
+</resources>

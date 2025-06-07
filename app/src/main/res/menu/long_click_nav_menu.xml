@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_changeTo"
+        android:icon="@drawable/category"
+        android:title="@string/category"/>
+
+
+    <item
+        android:id="@+id/navigation_moveTo"
+        android:icon="@drawable/file_move_24"
+        android:title="@string/status"/>
+
+    <item
+        android:id="@+id/navigation_delete"
+        android:icon="@drawable/delete_24"
+        android:title="@string/delete" />
+</menu>

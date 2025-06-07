@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_pending"
+        android:icon="@drawable/pending_actions_24"
+        android:title="@string/title_pending" />
+
+    <item
+        android:id="@+id/navigation_inProgress"
+        android:icon="@drawable/in_progress"
+        android:title="@string/title_inProgress" />
+
+    <item
+        android:id="@+id/navigation_completed"
+        android:icon="@drawable/completed"
+        android:title="@string/title_completed" />
+
+</menu>
